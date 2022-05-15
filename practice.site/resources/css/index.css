@@ -1,0 +1,226 @@
+/*Global Styles*/
+body {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Rufina', serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+h1 {
+    font-size: 48pt;
+}
+
+h2 {
+    font-size: 36pt;
+}
+
+p {
+    font-size: 16pt;
+    font-family: 'Roboto Flex', sans-serif;
+    line-height: 30px;
+}
+
+/*Header*/
+.header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(163, 135, 181);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin: 0 auto;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 25px;
+    font-size: 22pt;
+    font-family: 'Amatic SC';
+}
+
+.header-logo {
+    height: 200px;
+}
+
+/*Main Banner*/
+.mainbanner {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.3)), url(/Users/taylesper/projects/practice.site/resources/images/pancakes.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    margin: 0 auto;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+}
+
+.headline {
+    text-align: center;
+    position: relative;
+    top: 300px;
+    color: white;
+    line-height: 30px;
+}
+
+.headline h3 {
+    background-color: rgb(163, 135, 181);
+    width: 250px;
+    position: relative;
+    font-size: 20pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Features*/
+
+.features {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Amatic SC';
+    color: rgb(163, 135, 181);
+    display: flex;
+}
+
+.feature-buttons {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    margin: 50px 10px;
+    text-align: center;
+}
+
+.seasonal-menu img {
+    height:200px;
+    width:300px;
+    border-radius: 25px;
+  }
+
+  .brunch img {
+    height:200px;
+    width:300px;
+    border-radius: 25px;
+  }
+
+  .coffee img {
+    height:200px;
+    width:300px;
+    border-radius: 25px;
+  }
+
+  .contact img {
+    height:200px;
+    width:300px;
+    border-radius: 25px;
+  }
+
+  .feature-buttons figcaption {
+    font-size: 24pt;
+    text-align: center;
+}
+
+/*Main Content*/
+
+.featured-content {
+    background-color: rgb(163, 135, 181);
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.8)), url(/Users/taylesper/projects/practice.site/resources/images/galaxy.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    margin: 0 auto;
+    color: black;
+    height: 550px;
+    text-align: center;
+}
+
+.featured-content h3 {
+    font-family: 'Amatic SC';
+    font-size: 36pt;
+    padding-top: 75px;
+    line-height: 0%;
+}
+
+.featured-content h4 {
+    font-family: 'Amatic SC';
+    font-size: 26pt;
+}
+
+.featured-content p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.featured-content h5 {
+    background-color: rgb(163, 135, 181);
+    width: 250px;
+    position: relative;
+    font-size: 22pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Amatic SC';
+}
+
+/*Gallery*/
+
+.blocks {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(163, 135, 181);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.footer-menu li {
+    list-style: none;
+}
+
+.footer-logo {
+    height: 100px;
+}
+
+.footer h4 {
+    padding-right: 20px;
+}
